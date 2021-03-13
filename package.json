@@ -1,7 +1,7 @@
 {
-  "name": "boilermaker",
+  "name": "unreal-messaging",
   "version": "2.0.0",
-  "description": "Some boilerplate code to get you started - get shakin'!",
+  "description": "Real-time and asynchronous messaging for Deep Work",
   "engines": {
     "node": "~12.11.1"
   },
@@ -61,7 +61,8 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
     "sequelize": "^5.3.1",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.2.0",
+    "stream-chat": "^3.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -94,7 +95,7 @@
     "mocha": "^6.1.4",
     "nodemon": "^1.18.3",
     "npm-merge-driver": "^2.3.5",
-    "prettier": "1.11.1",
+    "prettier": "2.2.1",
     "react-test-renderer": "^16.4.2",
     "redux-devtools-extension": "^2.13.5",
     "redux-mock-store": "^1.5.3",
